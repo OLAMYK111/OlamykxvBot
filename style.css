@@ -1,0 +1,144 @@
+/* style.css */
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f5f8fa;
+  color: #111;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(135deg, #003366, #0055aa);
+  color: #fff;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.btn-primary {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  background: #00cc88;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background: #00b377;
+}
+
+.features {
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.features h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.features-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.feature-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+}
+
+.feature-card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 1rem;
+}
+
+.feature-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.12);
+}
+
+.connect-section {
+  padding: 2rem 1rem;
+  text-align: center;
+  background: #eaf4fb;
+}
+
+.connect-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.qr-placeholder {
+  margin: 1rem auto;
+  width: 220px;
+  height: 220px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  border: 2px dashed #ccc;
+}
+
+.btn-secondary {
+  margin-top: 1rem;
+  padding: 0.7rem 1.4rem;
+  background: #0055aa;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-secondary:hover {
+  background: #004488;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  background: #003366;
+  color: #fff;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .features h2 {
+    font-size: 1.5rem;
+  }
+
+  .feature-card {
+    padding: 1rem;
+  }
+}

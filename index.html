@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OLAMYKXVBOT | Savage Smart WhatsApp Bot</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container header">
+      <h1>OLAMYKXVBOT</h1>
+      <p>The Savage, Smart & Fully Automated WhatsApp Bot</p>
+      <a href="#connect" class="btn-primary">Connect WhatsApp</a>
+    </div>
+  </header>
+
+  <section class="features">
+    <h2>Core Features</h2>
+    <div class="features-grid">
+      <div class="feature-card" onclick="openFeature('smartReplies')">
+        <img src="icons/reply.svg" alt="Auto Replies">
+        <h3>Smart Auto-Replies</h3>
+        <p>Replies based on tone & mood. Savage or sweet? You decide.</p>
+      </div>
+
+      <div class="feature-card" onclick="openFeature('statusLikes')">
+        <img src="icons/like.svg" alt="Status Likes">
+        <h3>Status Liking</h3>
+        <p>Auto-like contact status the moment they post.</p>
+      </div>
+
+      <div class="feature-card" onclick="openFeature('gptTasks')">
+        <img src="icons/ai.svg" alt="AI Tasks">
+        <h3>GPT & AI Tasks</h3>
+        <p>Use ChatGPT-like power for any task, anytime.</p>
+      </div>
+
+      <div class="feature-card" onclick="openFeature('deletedRecovery')">
+        <img src="icons/recover.svg" alt="Recovery">
+        <h3>Deleted Message Recovery</h3>
+        <p>Text or media deleted? Bring it back instantly.</p>
+      </div>
+
+      <div class="feature-card" onclick="openFeature('codeExec')">
+        <img src="icons/code.svg" alt="Code Execution">
+        <h3>Run Code</h3>
+        <p>Execute Python and JavaScript from WhatsApp chat.</p>
+      </div>
+
+      <div class="feature-card" onclick="openFeature('voiceConvert')">
+        <img src="icons/voice.svg" alt="Voice">
+        <h3>Voice ↔ Text</h3>
+        <p>Convert voice notes to text & reply with voice output.</p>
+      </div>
+
+      <div class="feature-card" onclick="openFeature('scheduler')">
+        <img src="icons/schedule.svg" alt="Scheduler">
+        <h3>Message Scheduler</h3>
+        <p>Schedule greetings, savage comebacks or daily reminders.</p>
+      </div>
+
+      <div class="feature-card" onclick="openFeature('dashboard')">
+        <img src="icons/dashboard.svg" alt="Dashboard">
+        <h3>Remote Dashboard</h3>
+        <p>Manage bot, toggle settings & view logs remotely.</p>
+      </div>
+
+      <div class="feature-card" onclick="openFeature('recaptcha')">
+        <img src="icons/lock.svg" alt="Security">
+        <h3>Security & reCAPTCHA</h3>
+        <p>Secure access to your bot and prevent unauthorized use.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="connect" class="connect-section">
+    <h2>Connect to WhatsApp</h2>
+    <p>Scan the QR code below to connect OLAMYKXVBOT to your WhatsApp.</p>
+    <div class="qr-placeholder">[ WhatsApp QR will appear here ]</div>
+    <button class="btn-secondary" onclick="startBot()">Start Bot Now</button>
+  </section>
+
+  <footer>
+    <p>© 2025 OLAMYKXVBOT. Designed by OLAMYK ⚡</p>
+  </footer>
+</body>
+
+</html>
